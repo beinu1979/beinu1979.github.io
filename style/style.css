@@ -3,7 +3,7 @@ body{
   color: #4C6132;
 }
 
-body > div, #logo{
+div.outer{
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@ a:hover{
   text-decoration: underline;
 }
 
-body > div.light{
+#logo_box{
   background-color: #8EA376;
   width: 100%;
   max-width: 100%;
@@ -29,7 +29,7 @@ body > div.light{
   height: 200px;
 }
 
-#toplink, #content, #footer{
+div.outer > div{
   margin: 12px 8px;
 }
 
@@ -40,6 +40,10 @@ body > div.light{
 
 #footer{
   font-size: small;
-  padding-top: 50px;
   text-align: center;
+}
+
+#disqus_box{
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
