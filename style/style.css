@@ -18,7 +18,7 @@ a:hover{
   text-decoration: underline;
 }
 
-.light{
+body > div.light{
   background-color: #8EA376;
   width: 100%;
   max-width: 100%;
@@ -30,13 +30,7 @@ a:hover{
 }
 
 #toplink, #content, #footer{
-  margin: 12px 0px;
-}
-
-#content{
-  padding-bottom:50px;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin: 12px 8px;
 }
 
 #toplink{
@@ -46,5 +40,6 @@ a:hover{
 
 #footer{
   font-size: small;
+  padding-top: 50px;
   text-align: center;
 }
