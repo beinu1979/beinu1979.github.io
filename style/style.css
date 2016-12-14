@@ -21,6 +21,7 @@ a:hover{
 .light{
   background-color: #8EA376;
   width: 100%;
+  max-width: 100%;
 }
 
 #logo{
