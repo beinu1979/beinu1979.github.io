@@ -2,22 +2,25 @@ body{
   background-color: #DFE9D3;
   color: #4C6132;
   padding-bottom: 10em;
+  line-height: 1.6;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 div.outer{
-  max-width: 1000px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1em;
 }
 
-a, a:hover, a:visited{
+a:link, a:hover, a:visited{
   color: #4C6132;
   text-decoration: none;
+  border-bottom: 1px dashed;
 }
 
 a:hover{
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 #logo_box{
@@ -47,6 +50,6 @@ a:hover{
   margin-bottom: 4em;
 }
 
-.l-box {
-  padding: 1em;
+.event {
+  margin: 3em 0;
 }
