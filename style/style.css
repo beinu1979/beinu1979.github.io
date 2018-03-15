@@ -1,12 +1,14 @@
 body{
   background-color: #DFE9D3;
   color: #4C6132;
+  padding-bottom: 10em;
 }
 
 div.outer{
-  max-width: 960px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 1em;
 }
 
 a, a:hover, a:visited{
@@ -29,13 +31,10 @@ a:hover{
   height: 200px;
 }
 
-div.outer > div{
-  margin: 12px 8px;
-}
-
 #toplink{
   font-size: small;
   text-align: right;
+  margin: 1em 0;
 }
 
 #footer{
@@ -44,6 +43,10 @@ div.outer > div{
 }
 
 #disqus_box{
-  margin-top: 24px;
-  margin-bottom: 48px;
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+
+.l-box {
+  padding: 1em;
 }
