@@ -53,3 +53,7 @@ a:hover{
 .event {
   margin: 3em 0;
 }
+
+.menu > a{
+  white-space: nowrap;
+}
