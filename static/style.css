@@ -79,3 +79,9 @@ a:hover{
 .menu > a{
   white-space: nowrap;
 }
+
+li.break {
+  list-style-type: none;
+  padding-top: 6px;
+  padding-bottom: 18px;
+}
