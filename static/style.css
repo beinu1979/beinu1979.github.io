@@ -35,6 +35,10 @@ div.outer{
   padding: 0 1em;
 }
 
+nav{
+  margin-bottom: 2em;
+}
+
 a:link, a:hover, a:visited{
   color: #4C6132;
   text-decoration: none;
