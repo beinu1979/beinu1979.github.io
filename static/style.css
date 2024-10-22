@@ -86,7 +86,7 @@ li.break {
   padding-bottom: 18px;
 }
 
-object.document {
+.document {
   width: 100%;
   aspect-ratio: 0.75;
 }
